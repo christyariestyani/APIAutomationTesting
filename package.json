@@ -1,0 +1,15 @@
+{
+  "name": "apimocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "node ./node_modules/mocha/bin/mocha ./api/test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 180000",
+    "reports": "open 'reports/mochawesome/mochawesome.html'"
+  },
+  "author": "Makrina Christy Ariestyani",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.3"
+  }
+}
